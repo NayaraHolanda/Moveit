@@ -77,3 +77,16 @@
   color: var(--text);
   cursor: not-allowed;
 }
+
+.countdownButton>svg {
+  margin-left: 0.5rem;
+  margin-top: 0.18rem;
+}
+
+.countdownButtonFinished {
+  border-bottom: 4px solid var(--green);
+}
+
+.countdownIconFinishedColor {
+  color: var(--green);
+}
